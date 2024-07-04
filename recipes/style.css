@@ -1,18 +1,37 @@
 body{
+    background-color: #f5deb3;
     color: #000000;
     font-size: large;
 }
 h1{
-    color:red;
+    text-align: center;
+    color: hsl(309, 83%, 65%);
 }
-h2{
-    color: #534bc5;
-}
+
 h3{
-    background-color: #f1e42c;
+    width: 120px;
+    background-color: #B3CAF5;
     text-decoration: underline;
 }
-img{
-    height: auto;
-    width: 500px;
+
+.opener{
+    display: block;
+    background-color: wheat;
+    text-align: center;
+    width: 1100px;
+    margin: auto;
+}
+
+.opener .description{
+    display: inline-block;
+    text-align: left;
+    width: 40%;
+    margin: 12px;
+}
+
+.opener #image{
+    display: inline block;
+    text-align: right;
+    width: 30%;
+    margin: 24px;
 }
