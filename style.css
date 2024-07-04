@@ -1,4 +1,47 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body{
+    background-color: hsl(39, 77%, 83%);
+}
+
+h1{
+    text-align: center;
+}
+
+.card{
+    height: 1000px;
+    display: block;
+    margin: 16px auto;
+    padding: 8px;
+    background: hsl(39, 73%, 83%);
+    
+  }
+
+.recipe{
+    display: inline-block;
+    width: 33%;
+    height: 600px;
+    margin: 16px auto;
+    background: hsl(39, 69%, 83%);
+    text-align: center;
+}
+
 .recLink{
+    text-align: center;
     font-family: "Lucida Handwriting", "Serif";
-    background-color: red;
+    background-color: gold;
+    margin: 30px;
+
+}
+
+.recImg{
+    display: inline;
+    margin: 12px;
+    width: 90%;
+    height: 400px;
 }
